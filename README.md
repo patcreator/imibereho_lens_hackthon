@@ -121,3 +121,7 @@ public/data/             NISR aggregate workbooks and district GeoJSON
 ## Deployment
 
 See [Deployment guide](docs/deployment.md) for Vercel setup, environment variables, Neon migrations, Groq  configuration, and a pre-release checklist.
+
+## LINKS
+ - [live hot link](https://imibereholenshackthon.vercel.app)
+ - [GitHub link](https://github.com/patcreator/imibereho_lens_hackthon)
