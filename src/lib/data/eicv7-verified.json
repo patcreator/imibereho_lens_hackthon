@@ -1,0 +1,722 @@
+{
+  "generatedAt": "2026-10-28T16:36:36.995Z",
+  "country": "Rwanda",
+  "survey": "EICV7",
+  "surveyPeriod": "October 2023 to October 2024",
+  "reportingPeriod": "2023/24",
+  "source": {
+    "organization": "National Institute of Statistics of Rwanda (NISR)",
+    "mainIndicatorsReportUrl": "https://statistics.gov.rw/statistical-publications/poverty-and-social-protection/eicv7-main-indicators-report-202324",
+    "povertyProfileUrl": "https://statistics.gov.rw/data-sources/surveys/EICV/integrated-household-living-conditions-survey-7-eicv-7/eicv7-poverty-profile-report-202324",
+    "mpiReportUrl": "https://statistics.gov.rw/data-sources/surveys/EICV/integrated-household-living-conditions-survey-7-eicv-7/eicv7-thematic-report-multidimensional-poverty",
+    "importedAt": "2026-10-28",
+    "sourceFiles": [
+      {
+        "fileName": "EICV7_Tables_MainIndicatorReport.xlsx",
+        "sourceUrl": "https://statistics.gov.rw/sites/default/files/documents/2025-04/EICV7_Tables_MainIndicatorReport.xlsx",
+        "format": "xlsx",
+        "sha256": "8a01ec05d851d9813a855e513eb0e74046a070ca0235df9e81730560028e350d",
+        "sourceTables": [
+          "Table 9.2",
+          "Table 9.3",
+          "Table A9.23"
+        ]
+      },
+      {
+        "fileName": "EICV7_Tables_MPI.xlsx",
+        "sourceUrl": "https://statistics.gov.rw/sites/default/files/documents/2025-07/Tables_and_Figures_EICV7_Multidimensional_Poverty_MPI.xlsx",
+        "format": "xlsx",
+        "sha256": "9b3e995f50659a30dfe828a40870fb6c4e385fb8d93b94a74e901f69e970f39c",
+        "sourceTables": [
+          "Table B.5"
+        ]
+      }
+    ],
+    "limitations": [
+      "Published survey estimates are reproduced from NISR tables; this application does not recalculate EICV7 official estimates from household microdata.",
+      "District monetary-poverty estimates include survey standard errors and 95% confidence intervals; small differences should not be over-interpreted.",
+      "The 2017 comparator is modelled under the EICV7 methodology and is not a directly observed EICV7 estimate.",
+      "The local district boundary layer is geoBoundaries/Open Data Rwanda ADM2 (2012 vintage); it is used for visualization only and does not change the statistical estimates."
+    ]
+  },
+  "monetaryPovertyAreas": [
+    {
+      "area": "Rwanda",
+      "level": "national",
+      "monetaryPovertyRate": 27.362976067289672,
+      "standardError": 0.49624639004466625,
+      "confidenceInterval95": {
+        "lower": 26.389621090104246,
+        "upper": 28.3363310444751
+      },
+      "coefficientOfVariation": 1.813568775648971,
+      "designEffect": 1.8650754691612403
+    },
+    {
+      "area": "Urban",
+      "level": "residence",
+      "monetaryPovertyRate": 16.69437894637872,
+      "standardError": 0.9054222919384833,
+      "confidenceInterval95": {
+        "lower": 14.918452084253564,
+        "upper": 18.470305808503873
+      },
+      "coefficientOfVariation": 5.4235158722983465,
+      "designEffect": 2.515588670510791
+    },
+    {
+      "area": "Rural",
+      "level": "residence",
+      "monetaryPovertyRate": 31.58433380322931,
+      "standardError": 0.5918960006737628,
+      "confidenceInterval95": {
+        "lower": 30.423368343752415,
+        "upper": 32.745299262706205
+      },
+      "coefficientOfVariation": 1.8740176834543363,
+      "designEffect": 1.7486404710788017
+    },
+    {
+      "area": "City of Kigali",
+      "level": "province",
+      "monetaryPovertyRate": 9.054194655444848,
+      "standardError": 1.0639082588138458,
+      "confidenceInterval95": {
+        "lower": 6.967407890322123,
+        "upper": 11.140981420567572
+      },
+      "coefficientOfVariation": 11.75044605622712,
+      "designEffect": 2.840267061581265
+    },
+    {
+      "area": "Southern",
+      "level": "province",
+      "monetaryPovertyRate": 34.66687782606705,
+      "standardError": 1.0138489724443434,
+      "confidenceInterval95": {
+        "lower": 32.67827909116399,
+        "upper": 36.65547656097011
+      },
+      "coefficientOfVariation": 2.9245465297771935,
+      "designEffect": 1.5276030300185433
+    },
+    {
+      "area": "Western",
+      "level": "province",
+      "monetaryPovertyRate": 37.412058313592915,
+      "standardError": 1.1685376959257137,
+      "confidenceInterval95": {
+        "lower": 35.120047721323,
+        "upper": 39.70406890586283
+      },
+      "coefficientOfVariation": 3.1234253034967314,
+      "designEffect": 1.8828246325074596
+    },
+    {
+      "area": "Northern",
+      "level": "province",
+      "monetaryPovertyRate": 20.15069027559494,
+      "standardError": 1.0775256723607776,
+      "confidenceInterval95": {
+        "lower": 18.037193840602164,
+        "upper": 22.264186710587715
+      },
+      "coefficientOfVariation": 5.347338764200047,
+      "designEffect": 1.6828742922257685
+    },
+    {
+      "area": "Eastern",
+      "level": "province",
+      "monetaryPovertyRate": 26.776883461120043,
+      "standardError": 1.0434394373166165,
+      "confidenceInterval95": {
+        "lower": 24.730244956379938,
+        "upper": 28.82352196586015
+      },
+      "coefficientOfVariation": 3.8967919430642013,
+      "designEffect": 2.254463531010355
+    }
+  ],
+  "districts": [
+    {
+      "area": "Nyarugenge",
+      "level": "district",
+      "monetaryPovertyRate": 6.799930094970697,
+      "standardError": 1.2026866468360777,
+      "confidenceInterval95": {
+        "lower": 4.440938559360773,
+        "upper": 9.158921630580622
+      },
+      "coefficientOfVariation": 17.68675015829351,
+      "designEffect": 0.994911099909413
+    },
+    {
+      "area": "Gasabo",
+      "level": "district",
+      "monetaryPovertyRate": 11.058701583614019,
+      "standardError": 1.8465393123645137,
+      "confidenceInterval95": {
+        "lower": 7.436834973971214,
+        "upper": 14.680568193256823
+      },
+      "coefficientOfVariation": 16.697614077050254,
+      "designEffect": 3.7352112177928416
+    },
+    {
+      "area": "Kicukiro",
+      "level": "district",
+      "monetaryPovertyRate": 6.925051391175594,
+      "standardError": 1.3370090751048411,
+      "confidenceInterval95": {
+        "lower": 4.302595159950926,
+        "upper": 9.547507622400262
+      },
+      "coefficientOfVariation": 19.30684697601747,
+      "designEffect": 1.5333250091539479
+    },
+    {
+      "area": "Nyanza",
+      "level": "district",
+      "monetaryPovertyRate": 43.27198723363891,
+      "standardError": 2.824219359930666,
+      "confidenceInterval95": {
+        "lower": 37.73246487982486,
+        "upper": 48.81150958745296
+      },
+      "coefficientOfVariation": 6.526668961796989,
+      "designEffect": 1.3183532087921135
+    },
+    {
+      "area": "Gisagara",
+      "level": "district",
+      "monetaryPovertyRate": 45.59121975240947,
+      "standardError": 2.685971343647828,
+      "confidenceInterval95": {
+        "lower": 40.32286187945502,
+        "upper": 50.859577625363926
+      },
+      "coefficientOfVariation": 5.8914224235158255,
+      "designEffect": 1.2922703704370215
+    },
+    {
+      "area": "Nyaruguru",
+      "level": "district",
+      "monetaryPovertyRate": 39.698549156944445,
+      "standardError": 2.5368787609271077,
+      "confidenceInterval95": {
+        "lower": 34.722626675690435,
+        "upper": 44.674471638198455
+      },
+      "coefficientOfVariation": 6.390356360122378,
+      "designEffect": 1.0271191966308688
+    },
+    {
+      "area": "Huye",
+      "level": "district",
+      "monetaryPovertyRate": 24.190701339070184,
+      "standardError": 2.701125167213431,
+      "confidenceInterval95": {
+        "lower": 18.89262022804917,
+        "upper": 29.488782450091197
+      },
+      "coefficientOfVariation": 11.165964679374003,
+      "designEffect": 1.652318671707837
+    },
+    {
+      "area": "Nyamagabe",
+      "level": "district",
+      "monetaryPovertyRate": 51.39408818367712,
+      "standardError": 3.2140169282663194,
+      "confidenceInterval95": {
+        "lower": 45.09000328422896,
+        "upper": 57.698173083125276
+      },
+      "coefficientOfVariation": 6.2536704937341385,
+      "designEffect": 1.6701460450989005
+    },
+    {
+      "area": "Ruhango",
+      "level": "district",
+      "monetaryPovertyRate": 14.993299314885093,
+      "standardError": 2.4379187592341816,
+      "confidenceInterval95": {
+        "lower": 10.211480432412767,
+        "upper": 19.77511819735742
+      },
+      "coefficientOfVariation": 16.260055295593663,
+      "designEffect": 1.8406638560175697
+    },
+    {
+      "area": "Muhanga",
+      "level": "district",
+      "monetaryPovertyRate": 14.951667489644226,
+      "standardError": 2.1870259498815816,
+      "confidenceInterval95": {
+        "lower": 10.661958513908766,
+        "upper": 19.241376465379687
+      },
+      "coefficientOfVariation": 14.627304622687417,
+      "designEffect": 1.4451517785627757
+    },
+    {
+      "area": "Kamonyi",
+      "level": "district",
+      "monetaryPovertyRate": 39.645735779695706,
+      "standardError": 3.333571462261705,
+      "confidenceInterval95": {
+        "lower": 33.10715244752541,
+        "upper": 46.184319111866
+      },
+      "coefficientOfVariation": 8.408398524335047,
+      "designEffect": 2.488168980536969
+    },
+    {
+      "area": "Karongi",
+      "level": "district",
+      "monetaryPovertyRate": 38.18939347027438,
+      "standardError": 3.3583435665523726,
+      "confidenceInterval95": {
+        "lower": 31.60222126876338,
+        "upper": 44.776565671785384
+      },
+      "coefficientOfVariation": 8.793917005166419,
+      "designEffect": 1.9740058229790693
+    },
+    {
+      "area": "Rutsiro",
+      "level": "district",
+      "monetaryPovertyRate": 40.77769270980214,
+      "standardError": 2.9913275270138673,
+      "confidenceInterval95": {
+        "lower": 34.91039856878349,
+        "upper": 46.644986850820786
+      },
+      "coefficientOfVariation": 7.3356958872143645,
+      "designEffect": 1.5128909364676328
+    },
+    {
+      "area": "Rubavu",
+      "level": "district",
+      "monetaryPovertyRate": 38.80688793296346,
+      "standardError": 3.0969092258838886,
+      "confidenceInterval95": {
+        "lower": 32.73250216537283,
+        "upper": 44.8812737005541
+      },
+      "coefficientOfVariation": 7.980308112399043,
+      "designEffect": 2.4538094507259274
+    },
+    {
+      "area": "Nyabihu",
+      "level": "district",
+      "monetaryPovertyRate": 20.406112287135535,
+      "standardError": 2.2291960759124554,
+      "confidenceInterval95": {
+        "lower": 16.033689355421487,
+        "upper": 24.778535218849584
+      },
+      "coefficientOfVariation": 10.924158627303987,
+      "designEffect": 1.094900621620223
+    },
+    {
+      "area": "Ngororero",
+      "level": "district",
+      "monetaryPovertyRate": 30.24444374128455,
+      "standardError": 2.6947489535697704,
+      "confidenceInterval95": {
+        "lower": 24.958869158089552,
+        "upper": 35.53001832447954
+      },
+      "coefficientOfVariation": 8.909897555468541,
+      "designEffect": 1.3489910985419171
+    },
+    {
+      "area": "Rusizi",
+      "level": "district",
+      "monetaryPovertyRate": 44.16310614235404,
+      "standardError": 3.434645113029956,
+      "confidenceInterval95": {
+        "lower": 37.42627342638727,
+        "upper": 50.89993885832081
+      },
+      "coefficientOfVariation": 7.777181935434576,
+      "designEffect": 2.662746613088532
+    },
+    {
+      "area": "Nyamasheke",
+      "level": "district",
+      "monetaryPovertyRate": 42.671646918478494,
+      "standardError": 2.5729321753366268,
+      "confidenceInterval95": {
+        "lower": 37.62500801275463,
+        "upper": 47.71828582420236
+      },
+      "coefficientOfVariation": 6.029605982286206,
+      "designEffect": 1.3348811311374287
+    },
+    {
+      "area": "Rulindo",
+      "level": "district",
+      "monetaryPovertyRate": 21.637385467650525,
+      "standardError": 2.0890506686497283,
+      "confidenceInterval95": {
+        "lower": 17.539848625639973,
+        "upper": 25.734922309661076
+      },
+      "coefficientOfVariation": 9.654820226653595,
+      "designEffect": 1.0592813456674268
+    },
+    {
+      "area": "Gakenke",
+      "level": "district",
+      "monetaryPovertyRate": 24.473967753574655,
+      "standardError": 2.894421103503418,
+      "confidenceInterval95": {
+        "lower": 18.796749251467247,
+        "upper": 30.151186255682063
+      },
+      "coefficientOfVariation": 11.826529856731796,
+      "designEffect": 1.8790575531421951
+    },
+    {
+      "area": "Musanze",
+      "level": "district",
+      "monetaryPovertyRate": 20.980727500084797,
+      "standardError": 2.7026744674018137,
+      "confidenceInterval95": {
+        "lower": 15.679607537638827,
+        "upper": 26.281847462530767
+      },
+      "coefficientOfVariation": 12.88170044337543,
+      "designEffect": 2.455661436107841
+    },
+    {
+      "area": "Burera",
+      "level": "district",
+      "monetaryPovertyRate": 21.791509001940817,
+      "standardError": 1.846062933125212,
+      "confidenceInterval95": {
+        "lower": 18.170576779152817,
+        "upper": 25.412441224728816
+      },
+      "coefficientOfVariation": 8.471478193459646,
+      "designEffect": 0.8539035645654615
+    },
+    {
+      "area": "Gicumbi",
+      "level": "district",
+      "monetaryPovertyRate": 13.311406162730469,
+      "standardError": 2.099069105973295,
+      "confidenceInterval95": {
+        "lower": 9.194218808337073,
+        "upper": 17.428593517123865
+      },
+      "coefficientOfVariation": 15.768950930595965,
+      "designEffect": 1.9917105443649805
+    },
+    {
+      "area": "Rwamagana",
+      "level": "district",
+      "monetaryPovertyRate": 23.860447652227737,
+      "standardError": 2.5877848884479264,
+      "confidenceInterval95": {
+        "lower": 18.784676116984308,
+        "upper": 28.936219187471167
+      },
+      "coefficientOfVariation": 10.84550016062384,
+      "designEffect": 2.1058918868916723
+    },
+    {
+      "area": "Nyagatare",
+      "level": "district",
+      "monetaryPovertyRate": 36.36640511331785,
+      "standardError": 2.7897853056270216,
+      "confidenceInterval95": {
+        "lower": 30.894422914583032,
+        "upper": 41.838387312052674
+      },
+      "coefficientOfVariation": 7.671325491024038,
+      "designEffect": 2.507273556371988
+    },
+    {
+      "area": "Gatsibo",
+      "level": "district",
+      "monetaryPovertyRate": 18.40620426125894,
+      "standardError": 2.631800254072418,
+      "confidenceInterval95": {
+        "lower": 13.24409945274096,
+        "upper": 23.568309069776916
+      },
+      "coefficientOfVariation": 14.298440986074384,
+      "designEffect": 2.7825514638846203
+    },
+    {
+      "area": "Kayonza",
+      "level": "district",
+      "monetaryPovertyRate": 36.55439676151857,
+      "standardError": 3.2311024819699306,
+      "confidenceInterval95": {
+        "lower": 30.21679966113756,
+        "upper": 42.89199386189958
+      },
+      "coefficientOfVariation": 8.839162366841098,
+      "designEffect": 2.572852898487915
+    },
+    {
+      "area": "Kirehe",
+      "level": "district",
+      "monetaryPovertyRate": 14.237073445161911,
+      "standardError": 2.1284905270000833,
+      "confidenceInterval95": {
+        "lower": 10.062177889425804,
+        "upper": 18.41196900089802
+      },
+      "coefficientOfVariation": 14.950337477702583,
+      "designEffect": 1.762388986770388
+    },
+    {
+      "area": "Ngoma",
+      "level": "district",
+      "monetaryPovertyRate": 30.93904860949708,
+      "standardError": 2.633109571057107,
+      "confidenceInterval95": {
+        "lower": 25.774375660979842,
+        "upper": 36.103721558014314
+      },
+      "coefficientOfVariation": 8.510635230874053,
+      "designEffect": 1.4792247580559
+    },
+    {
+      "area": "Bugesera",
+      "level": "district",
+      "monetaryPovertyRate": 23.698645176490345,
+      "standardError": 2.625944335573044,
+      "confidenceInterval95": {
+        "lower": 18.54802637075587,
+        "upper": 28.84926398222482
+      },
+      "coefficientOfVariation": 11.080567332085495,
+      "designEffect": 2.4305877067424273
+    }
+  ],
+  "extremePovertyAreas": [
+    {
+      "area": "Rwanda",
+      "level": "national",
+      "extremePovertyRate": 5.432907760228573,
+      "standardError": 0.26569327626066336,
+      "confidenceInterval95": {
+        "lower": 4.91176770149738,
+        "upper": 5.954047818959765
+      },
+      "coefficientOfVariation": 4.890443349796263,
+      "designEffect": 2.06829185987585
+    },
+    {
+      "area": "Urban",
+      "level": "residence",
+      "extremePovertyRate": 3.066808686860796,
+      "standardError": 0.4189630000195147,
+      "confidenceInterval95": {
+        "lower": 2.2450400463094207,
+        "upper": 3.8885773274121718
+      },
+      "coefficientOfVariation": 13.661204294043126,
+      "designEffect": 2.5198459071879546
+    },
+    {
+      "area": "Rural",
+      "level": "residence",
+      "extremePovertyRate": 6.369127444425235,
+      "standardError": 0.3317054864690823,
+      "confidenceInterval95": {
+        "lower": 5.71850873426125,
+        "upper": 7.01974615458922
+      },
+      "coefficientOfVariation": 5.208020868846285,
+      "designEffect": 1.9899551841732337
+    },
+    {
+      "area": "City of Kigali",
+      "level": "province",
+      "extremePovertyRate": 1.0854117738251785,
+      "standardError": 0.3927709273761294,
+      "confidenceInterval95": {
+        "lower": 0.3150171780662432,
+        "upper": 1.8558063695841138
+      },
+      "coefficientOfVariation": 36.186352207322834,
+      "designEffect": 2.968978890728183
+    },
+    {
+      "area": "Southern",
+      "level": "province",
+      "extremePovertyRate": 7.401236976932633,
+      "standardError": 0.6087616168989328,
+      "confidenceInterval95": {
+        "lower": 6.207190709563935,
+        "upper": 8.595283244301331
+      },
+      "coefficientOfVariation": 8.225133431023144,
+      "designEffect": 1.8201079724935356
+    },
+    {
+      "area": "Western",
+      "level": "province",
+      "extremePovertyRate": 8.994810691548844,
+      "standardError": 0.7618434112158385,
+      "confidenceInterval95": {
+        "lower": 7.500504453721874,
+        "upper": 10.489116929375815
+      },
+      "coefficientOfVariation": 8.469810397806764,
+      "designEffect": 2.2892853891522402
+    },
+    {
+      "area": "Northern",
+      "level": "province",
+      "extremePovertyRate": 3.214804241662151,
+      "standardError": 0.5345466079507306,
+      "confidenceInterval95": {
+        "lower": 2.1663258812662205,
+        "upper": 4.263282602058082
+      },
+      "coefficientOfVariation": 16.627656546650375,
+      "designEffect": 2.1417324078995175
+    },
+    {
+      "area": "Eastern",
+      "level": "province",
+      "extremePovertyRate": 4.455136137817671,
+      "standardError": 0.4560857525748394,
+      "confidenceInterval95": {
+        "lower": 3.560553635661587,
+        "upper": 5.349718639973754
+      },
+      "coefficientOfVariation": 10.237302261166166,
+      "designEffect": 1.9839998921135007
+    }
+  ],
+  "modeled2017": [
+    {
+      "area": "Rwanda",
+      "modelled2017PovertyRate": 39.8,
+      "actual2024PovertyRate": 27.4,
+      "modeledChangePercentagePoints": -12.4,
+      "status": "modelled comparison; 2017 is not an observed EICV7 estimate"
+    },
+    {
+      "area": "Kigali City",
+      "modelled2017PovertyRate": 14.3,
+      "actual2024PovertyRate": 9.1,
+      "modeledChangePercentagePoints": -5.3,
+      "status": "modelled comparison; 2017 is not an observed EICV7 estimate"
+    },
+    {
+      "area": "South",
+      "modelled2017PovertyRate": 47.6,
+      "actual2024PovertyRate": 34.7,
+      "modeledChangePercentagePoints": -12.9,
+      "status": "modelled comparison; 2017 is not an observed EICV7 estimate"
+    },
+    {
+      "area": "West",
+      "modelled2017PovertyRate": 51.7,
+      "actual2024PovertyRate": 37.4,
+      "modeledChangePercentagePoints": -14.3,
+      "status": "modelled comparison; 2017 is not an observed EICV7 estimate"
+    },
+    {
+      "area": "North",
+      "modelled2017PovertyRate": 33,
+      "actual2024PovertyRate": 20.2,
+      "modeledChangePercentagePoints": -12.8,
+      "status": "modelled comparison; 2017 is not an observed EICV7 estimate"
+    },
+    {
+      "area": "East",
+      "modelled2017PovertyRate": 39.2,
+      "actual2024PovertyRate": 26.8,
+      "modeledChangePercentagePoints": -12.4,
+      "status": "modelled comparison; 2017 is not an observed EICV7 estimate"
+    },
+    {
+      "area": "Urban",
+      "modelled2017PovertyRate": 18.9,
+      "actual2024PovertyRate": 16.7,
+      "modeledChangePercentagePoints": -6.2,
+      "status": "modelled comparison; 2017 is not an observed EICV7 estimate"
+    },
+    {
+      "area": "Rural",
+      "modelled2017PovertyRate": 44.3,
+      "actual2024PovertyRate": 31.6,
+      "modeledChangePercentagePoints": -13.7,
+      "status": "modelled comparison; 2017 is not an observed EICV7 estimate"
+    }
+  ],
+  "mpiAreas": [
+    {
+      "area": "National",
+      "populationShare": 100,
+      "mpiIncidence": 30.5,
+      "mpiIntensity": 44.6,
+      "mpiM0": 0.136
+    },
+    {
+      "area": "Urban",
+      "populationShare": 28,
+      "mpiIncidence": 14.8,
+      "mpiIntensity": 43.9,
+      "mpiM0": 0.065
+    },
+    {
+      "area": "Rural",
+      "populationShare": 72,
+      "mpiIncidence": 36.7,
+      "mpiIntensity": 44.8,
+      "mpiM0": 0.164
+    },
+    {
+      "area": "City of Kigali",
+      "populationShare": 14,
+      "mpiIncidence": 12.4,
+      "mpiIntensity": 43,
+      "mpiM0": 0.053
+    },
+    {
+      "area": "Southern",
+      "populationShare": 22,
+      "mpiIncidence": 35.2,
+      "mpiIntensity": 45,
+      "mpiM0": 0.158
+    },
+    {
+      "area": "Western",
+      "populationShare": 21,
+      "mpiIncidence": 33.5,
+      "mpiIntensity": 44.6,
+      "mpiM0": 0.149
+    },
+    {
+      "area": "Northern",
+      "populationShare": 15,
+      "mpiIncidence": 28.7,
+      "mpiIntensity": 42.9,
+      "mpiM0": 0.123
+    },
+    {
+      "area": "Eastern",
+      "populationShare": 27,
+      "mpiIncidence": 34.4,
+      "mpiIntensity": 45.5,
+      "mpiM0": 0.157
+    }
+  ],
+  "methodology": {
+    "monetaryPoverty": "Headcount poverty rate: share of people whose consumption per adult equivalent is below the EICV7 poverty line. The published EICV7 estimate uses the official survey methodology and weights.",
+    "extremePoverty": "Extreme headcount poverty uses the official EICV7 extreme-poverty line and methodology.",
+    "mpi": "Multidimensional poverty incidence (H) uses the Rwanda MPI (Alkire-Foster method), four dimensions and 13 indicators, with k = 33.3% of weighted indicators. It is not interchangeable with monetary poverty.",
+    "denominator": "Published EICV7 person-level rates are percentages of the population unless the table specifies otherwise."
+  }
+}
