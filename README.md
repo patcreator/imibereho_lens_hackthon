@@ -1,4 +1,12 @@
+
+
 # Imibereho Lens
+
+## LINKS
+ - [live hot link](https://imibereholenshackthon.vercel.app)
+ - [GitHub link](https://github.com/patcreator/imibereho_lens_hackthon)
+ - demo video => [https://youtu.be/fYH7GVtly3M](https://youtu.be/fYH7GVtly3M)
+ 
 
 A source-led Rwanda poverty and development intelligence prototype for the NISR 2026 Big Data Hackathon, Track 2. It brings together published EICV7 poverty and MPI aggregates, a small set of FinScope 2024 financial-inclusion summaries, district boundaries for visualization, and browser-local descriptive analysis of user-provided files.
 
@@ -125,3 +133,4 @@ See [Deployment guide](docs/deployment.md) for Vercel setup, environment variabl
 ## LINKS
  - [live hot link](https://imibereholenshackthon.vercel.app)
  - [GitHub link](https://github.com/patcreator/imibereho_lens_hackthon)
+ - demo video => [https://youtu.be/fYH7GVtly3M](https://youtu.be/fYH7GVtly3M)
